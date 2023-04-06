@@ -12,8 +12,8 @@ SCRENN_HEIGHT = 800
 
 # размеры спрайтов
 SPRITE_IMAGE_SIZE = 128
-SPRITE_SCALING_PLAYER = 0.4
-SPRITE_SCALING_TILES = 0.4
+SPRITE_SCALING_PLAYER = 0.4 # задается размер персонажа
+SPRITE_SCALING_TILES = 0.4 #по идеи тоже рамер только для карты но он не меняется
 SPRITE_SIZE = int(SPRITE_IMAGE_SIZE * SPRITE_SCALING_PLAYER)
 
 # переменные для физики
@@ -21,11 +21,11 @@ GRAVITY = 1500
 PLAYER_MOVE_FORCE_ON_GROUND = 10000 # сила с которой мы воздействуем на персонажа когда говорим иди влево или вправо
 DEFAULT_DAMPING = 0.4  # затухание от 0 до 1
 PLAYER_FRICTION = 1.0   # сила трения  от 0 до 1
-WALL_FRICTION = 0.7
+WALL_FRICTION = 0.7 #Сцепляемость с землей(и не только)!
 DYN_ITEM_FRICTION = 0.6
 PLAYER_MASS = 2.0 #Масса игрока
 PL_MAX_HOR_SPEED = 500 #сила воздействия горизонтально
-PL_MAX_VER_SPEED = 1600 #сила воздействия вертикально
+PL_MAX_VER_SPEED = 1600 #сила воздействия вертикальнов
 
 #СДЕЛАЛИ ЧТОБЫ, ЕСЛИ ПЕРС ПОВЕРНУЛСЯ ВПРАВО ИЛИ ВЛЕВО, ТО АНИМАЦИИЯ БЫЛА СООТВЕСТВУЮЩЕЙ!
 RIGHT = 0
